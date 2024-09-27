@@ -7,6 +7,10 @@
     background-color: green;
 }
 
+.green:hover {
+    background-color: darkgreen;
+}
+
 .red {
     background-color: red;
 }
@@ -25,4 +29,30 @@
 
 .d-inline {
     display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.psevdo-input:hover {
+    background-color: red;
+    color: blue;
+}
+
+.psevdo-input:first-child {
+    background-color: violet;
+    color: green;
+}
+
+.psevdo-input:not(.bad-psevdo) {
+    border-radius: 8px;
+}
+
+.psevdo-input:last-child {
+    border-radius: 8px;
+}
+
+.bad-psevdo::before {
+    content: '🎮 ';
 }
